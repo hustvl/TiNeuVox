@@ -7,7 +7,7 @@
 <sup>1</sup>Institute of AI HUST <sup>2</sup>School of EIC, HUST <sup>3</sup>Huawei Cloud <sup>4</sup>TUM
 
 ---------------------------------------------------
-![block](./imgs/render_demo.gif)
+![block](./imgs/render_demo.gif)   
 Our method converges very quickly. This is a comparison between D-NeRF (left) and our method (right). 
 
 ![block](./imgs/rep_img.JPG)
@@ -71,7 +71,7 @@ python run.py --config configs/vrig_dataset/chicken.py --render_test --render_on
 To fairly compare with values reported in D-NeRF, `metric.py` is provided to directly evaluate the rendered images with `uint8` values.
 
 ## Main Results   
-Please visit our project page for more rendered videos.
+Please visit our [project page](https://jaminfong.cn/tineuvox/) for more rendered videos.
 
 ### Synthetic Scenes
 
