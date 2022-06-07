@@ -446,11 +446,11 @@ def scene_rep_reconstruction(args, cfg, cfg_model, cfg_train, xyz_min, xyz_max, 
         # gradient descent step
         optimizer.zero_grad(set_to_none = True)
         loss = cfg_train.weight_main * F.mse_loss(render_result['rgb_marched'], target)
+        psnr = utils.mse2psnr(loss.detach())
+        
         if cfg.data.dataset_type =='hyper_dataset':
             if data_class.use_bg_points == True:
                 loss = loss+F.mse_loss(render_result['bg_points_delta'],bg_points_sel)
-
-        psnr = utils.mse2psnr(loss.detach())
         if cfg_train.weight_entropy_last > 0:
             pout = render_result['alphainv_last'].clamp(1e-6, 1-1e-6)
             entropy_last_loss = -(pout*torch.log(pout) + (1-pout)*torch.log(1-pout)).mean()
