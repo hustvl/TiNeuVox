@@ -45,7 +45,7 @@ train_config = dict(
     tv_feature_before=10000,            # count total variation densely before the given number of iterations
     weight_tv_feature=1e-5,
     pg_scale=[2000, 4000, 6000, 8000],
-    skip_zero_grad_fields=['feature_l'],
+    skip_zero_grad_fields=['feature'],
 )
 
 ''' Template of model and rendering options
