@@ -1,6 +1,6 @@
 # TiNeuVox: Time-Aware Neural Voxels
 
-### [Project Page](https://jaminfong.cn/tineuvox/) | [Paper](https://arxiv.org/abs/2205.15285) | [Video](https://youtu.be/sROLfK_VkCk)
+### [Paper](https://arxiv.org/abs/2205.15285) | [Video](https://youtu.be/sROLfK_VkCk)
 
 [Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://arxiv.org/abs/2205.15285)   
 [Jiemin Fang](https://jaminfong.cn/)<sup>1,2*</sup>, [Taoran Yi](https://github.com/taoranyi)<sup>2*</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>✉2</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, [Xiaopeng Zhang](https://sites.google.com/site/zxphistory/)<sup>3</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Matthias Nießner](https://niessnerlab.org/members/matthias_niessner/profile.html)<sup>4</sup>, [Qi Tian](https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ)<sup>3</sup>  
@@ -71,7 +71,7 @@ python run.py --config configs/vrig_dataset/chicken.py --render_test --render_on
 To fairly compare with values reported in D-NeRF, `metric.py` is provided to directly evaluate the rendered images with `uint8` values.
 
 ## Main Results   
-Please visit our [project page](https://jaminfong.cn/tineuvox/) for more rendered videos.
+Please visit our [video](https://youtu.be/sROLfK_VkCk) for more rendered videos.
 
 ### Synthetic Scenes
 
