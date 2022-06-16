@@ -95,4 +95,4 @@ This repository is partially based on [DirectVoxGO](https://github.com/sunset199
 
 
 ## Citation
-If you find this repository/work helpful in your research, welcome to cite the [paper](https://scholar.googleusercontent.com/scholar.bib?q=info:Wii324c6wHIJ:scholar.google.com/&output=citation&scisdr=CgVAW03WEMPM9i6aEDo:AAGBfm0AAAAAYqqcCDpFaHgIGohZ7H0TcjO41xwXCBIl&scisig=AAGBfm0AAAAAYqqcCBXcDESDhcv6hmV3bpGXC2A4Q_4P&scisf=4&ct=citation&cd=-1) and give a ⭐.
+If you find this repository/work helpful in your research, welcome to cite the [paper](https://arxiv.org/abs/2205.15285) and give a ⭐.
