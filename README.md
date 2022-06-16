@@ -1,15 +1,11 @@
-# TiNeuVox: Time-Aware Neural Voxels
-
-### [Paper](https://arxiv.org/abs/2205.15285) | [Video](https://youtu.be/sROLfK_VkCk)
-
-[Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://arxiv.org/abs/2205.15285)   
+### This is the code implementation of [https://arxiv.org/abs/2205.15285](https://arxiv.org/abs/2205.15285)   
 
 ---------------------------------------------------
 ![block](./imgs/render_demo.gif)   
 Our method converges very quickly. This is a comparison between D-NeRF (left) and our method (right). 
 
 ![block](./imgs/rep_img.JPG)
-We propose a radiance field framework by representing scenes with time-aware voxel features, named as TiNeuVox. A tiny coordinate deformation network is introduced to model coarse motion trajectories and temporal information is further enhanced in the radiance network. A multi-distance interpolation method is proposed and applied on voxel features to model both small and large motions. Our framework significantly accelerates the optimization of dynamic radiance fields while maintaining high rendering quality. Empirical evaluation is performed on both syntheticand real scenes. Our TiNeuVox completes training with only **8 minutes** and **8-MB** storage cost while showing similar or even better rendering performance than previous dynamic NeRF methods.
+We propose a radiance field framework by representing scenes with time-aware voxel features. A tiny coordinate deformation network is introduced to model coarse motion trajectories and temporal information is further enhanced in the radiance network. A multi-distance interpolation method is proposed and applied on voxel features to model both small and large motions. Our framework significantly accelerates the optimization of dynamic radiance fields while maintaining high rendering quality. Empirical evaluation is performed on both syntheticand real scenes. Our method completes training with only **8 minutes** and **8-MB** storage cost while showing similar or even better rendering performance than previous dynamic NeRF methods.
 
 ## Notes
 * *May. 31, 2022* The first and preliminary version is realeased. Code may not be cleaned thoroughly, so feel free to open an issue if any question.
@@ -99,12 +95,4 @@ This repository is partially based on [DirectVoxGO](https://github.com/sunset199
 
 
 ## Citation
-If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
-```
-@article{tineuvox,
-title={Fast Dynamic Radiance Fields with Time-Aware Neural Voxels},
-author={Jiemin Fang and Taoran Yi and Xinggang Wang and Lingxi Xie and Xiaopeng Zhang and Wenyu Liu and Matthias Nie{\ss}ner and Qi Tian},
-journal={arxiv:2205.15285},
-year={2022}
-}
-```
+If you find this repository/work helpful in your research, welcome to cite the [paper](https://scholar.googleusercontent.com/scholar.bib?q=info:Wii324c6wHIJ:scholar.google.com/&output=citation&scisdr=CgVAW03WEMPM9i6aEDo:AAGBfm0AAAAAYqqcCDpFaHgIGohZ7H0TcjO41xwXCBIl&scisig=AAGBfm0AAAAAYqqcCBXcDESDhcv6hmV3bpGXC2A4Q_4P&scisf=4&ct=citation&cd=-1) and give a ⭐.
