@@ -11,7 +11,7 @@
 ![block](./imgs/render_demo.gif)   
 Our method converges very quickly. This is a comparison between D-NeRF (left) and our method (right). 
 
-![block](./imgs/rep_img.JPG)
+![block](./imgs/rep_img.jpg)
 We propose a radiance field framework by representing scenes with time-aware voxel features, named as TiNeuVox. A tiny coordinate deformation network is introduced to model coarse motion trajectories and temporal information is further enhanced in the radiance network. A multi-distance interpolation method is proposed and applied on voxel features to model both small and large motions. Our framework significantly accelerates the optimization of dynamic radiance fields while maintaining high rendering quality. Empirical evaluation is performed on both syntheticand real scenes. Our TiNeuVox completes training with only **8 minutes** and **8-MB** storage cost while showing similar or even better rendering performance than previous dynamic NeRF methods.
 
 ## Notes
