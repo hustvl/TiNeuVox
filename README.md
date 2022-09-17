@@ -1,11 +1,18 @@
-### This is the code implementation of [https://arxiv.org/abs/2205.15285](https://arxiv.org/abs/2205.15285)   
+# TiNeuVox: Time-Aware Neural Voxels
+## SIGGRAPH ASIA 2022
+
+### [Project Page](https://jaminfong.cn/tineuvox/) | [Paper]()
+
+[Fast Dynamic Radiance Fields with Time-Aware Neural Voxels]()   
+[Jiemin Fang](https://jaminfong.cn/)<sup>1,2*</sup>, [Taoran Yi](https://github.com/taoranyi)<sup>2*</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>✉2</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, [Xiaopeng Zhang](https://sites.google.com/site/zxphistory/)<sup>3</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Matthias Nießner](https://niessnerlab.org/members/matthias_niessner/profile.html)<sup>4</sup>, [Qi Tian](https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ)<sup>3</sup>  
+<sup>1</sup>Institute of AI, HUST &emsp; <sup>2</sup>School of EIC, HUST &emsp; <sup>3</sup>Huawei Cloud &emsp; <sup>4</sup>TUM
 
 ---------------------------------------------------
 ![block](./imgs/render_demo.gif)   
 Our method converges very quickly. This is a comparison between D-NeRF (left) and our method (right). 
 
 ![block](./imgs/rep_img.JPG)
-We propose a radiance field framework by representing scenes with time-aware voxel features. A tiny coordinate deformation network is introduced to model coarse motion trajectories and temporal information is further enhanced in the radiance network. A multi-distance interpolation method is proposed and applied on voxel features to model both small and large motions. Our framework significantly accelerates the optimization of dynamic radiance fields while maintaining high rendering quality. Empirical evaluation is performed on both syntheticand real scenes. Our method completes training with only **8 minutes** and **8-MB** storage cost while showing similar or even better rendering performance than previous dynamic NeRF methods.
+We propose a radiance field framework by representing scenes with time-aware voxel features, named as TiNeuVox. A tiny coordinate deformation network is introduced to model coarse motion trajectories and temporal information is further enhanced in the radiance network. A multi-distance interpolation method is proposed and applied on voxel features to model both small and large motions. Our framework significantly accelerates the optimization of dynamic radiance fields while maintaining high rendering quality. Empirical evaluation is performed on both syntheticand real scenes. Our TiNeuVox completes training with only **8 minutes** and **8-MB** storage cost while showing similar or even better rendering performance than previous dynamic NeRF methods.
 
 ## Notes
 * *May. 31, 2022* The first and preliminary version is realeased. Code may not be cleaned thoroughly, so feel free to open an issue if any question.
@@ -95,4 +102,12 @@ This repository is partially based on [DirectVoxGO](https://github.com/sunset199
 
 
 ## Citation
-If you find this repository/work helpful in your research, welcome to cite the [paper](https://arxiv.org/abs/2205.15285) and give a ⭐.
+If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
+```
+@article{tineuvox,
+title={Fast Dynamic Radiance Fields with Time-Aware Neural Voxels},
+author={Jiemin Fang and Taoran Yi and Xinggang Wang and Lingxi Xie and Xiaopeng Zhang and Wenyu Liu and Matthias Nie{\ss}ner and Qi Tian},
+journal={arxiv:2205.15285},
+year={2022}
+}
+```
