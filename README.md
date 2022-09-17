@@ -1,10 +1,10 @@
 # TiNeuVox: Time-Aware Neural Voxels
 ## SIGGRAPH ASIA 2022
 
-### [Project Page](https://jaminfong.cn/tineuvox/) | [Paper]()
+### [Project Page](https://jaminfong.cn/tineuvox) | [Paper](https://arxiv.org/abs/2205.15285) | [Video](https://youtu.be/sROLfK_VkCk)
 
-[Fast Dynamic Radiance Fields with Time-Aware Neural Voxels]()   
-[Jiemin Fang](https://jaminfong.cn/)<sup>1,2*</sup>, [Taoran Yi](https://github.com/taoranyi)<sup>2*</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>✉2</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, [Xiaopeng Zhang](https://sites.google.com/site/zxphistory/)<sup>3</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Matthias Nießner](https://niessnerlab.org/members/matthias_niessner/profile.html)<sup>4</sup>, [Qi Tian](https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ)<sup>3</sup>  
+[Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://jaminfong.cn/tineuvox)   
+[Jiemin Fang](https://jaminfong.cn/)<sup>1,2*</sup>, [Taoran Yi](https://github.com/taoranyi)<sup>2*</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>✉2</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, </br>[Xiaopeng Zhang](https://sites.google.com/site/zxphistory/)<sup>3</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Matthias Nießner](https://niessnerlab.org/members/matthias_niessner/profile.html)<sup>4</sup>, [Qi Tian](https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ)<sup>3</sup>  
 <sup>1</sup>Institute of AI, HUST &emsp; <sup>2</sup>School of EIC, HUST &emsp; <sup>3</sup>Huawei Cloud &emsp; <sup>4</sup>TUM
 
 ---------------------------------------------------
