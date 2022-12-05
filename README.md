@@ -1,7 +1,7 @@
 # TiNeuVox: Time-Aware Neural Voxels
-## SIGGRAPH ASIA 2022
+## ACM SIGGRAPH Asia 2022
 
-### [Project Page](https://jaminfong.cn/tineuvox) | [Paper](https://arxiv.org/abs/2205.15285) | [Video](https://youtu.be/sROLfK_VkCk)
+### [Project Page](https://jaminfong.cn/tineuvox) | [ACM Paper](https://dl.acm.org/doi/10.1145/3550469.3555383) | [Arxiv Paper](https://arxiv.org/abs/2205.15285) | [Video](https://youtu.be/sROLfK_VkCk)
 
 [Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://jaminfong.cn/tineuvox)   
 [Jiemin Fang](https://jaminfong.cn/)<sup>1,2*</sup>, [Taoran Yi](https://github.com/taoranyi)<sup>2*</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>✉2</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, </br>[Xiaopeng Zhang](https://sites.google.com/site/zxphistory/)<sup>3</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Matthias Nießner](https://niessnerlab.org/members/matthias_niessner/profile.html)<sup>4</sup>, [Qi Tian](https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ)<sup>3</sup>  
@@ -104,10 +104,10 @@ This repository is partially based on [DirectVoxGO](https://github.com/sunset199
 ## Citation
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
 ```
-@article{tineuvox,
-title={Fast Dynamic Radiance Fields with Time-Aware Neural Voxels},
-author={Jiemin Fang and Taoran Yi and Xinggang Wang and Lingxi Xie and Xiaopeng Zhang and Wenyu Liu and Matthias Nie{\ss}ner and Qi Tian},
-journal={arxiv:2205.15285},
-year={2022}
+@inproceedings{TiNeuVox,
+  author = {Fang, Jiemin and Yi, Taoran and Wang, Xinggang and Xie, Lingxi and Zhang, Xiaopeng and Liu, Wenyu and Nie\ss{}ner, Matthias and Tian, Qi},
+  title = {Fast Dynamic Radiance Fields with Time-Aware Neural Voxels},
+  year = {2022},
+  booktitle = {SIGGRAPH Asia 2022 Conference Papers}
 }
 ```
