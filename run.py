@@ -611,7 +611,7 @@ if __name__=='__main__':
                     **render_viewpoints_kwargs)
         elif cfg.data.dataset_type == 'hyper_dataset':   
             rgbs,disps = render_viewpoints_hyper(
-                    data_calss=data_dict['data_calss'],
+                    data_class=data_dict['data_class'],
                     savedir=testsavedir, all=True, test=False,
                     eval_psnr=args.eval_psnr,
                     **render_viewpoints_kwargs)
